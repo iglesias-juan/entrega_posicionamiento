@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roboto-regular {
+  font-family: 'RobotoRegular';
+}
+
+body {
+  font-size: 16px;
+  font-family: 'RoboRegular', sans-serif;
+  letter-spacing: 0.1px;
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #000000;
+  color: #32e235;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  outline: 0.25px dashed red;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  outline: 0.25px dashed red;
+  padding: 5px;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+.sidebar {
+  outline: 0.25px dashed red;
+  padding: 2px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 1250px;
+  margin-right: 10px;
+  text-align: start;
+}
+
+.features {
+  outline: 0.25px dashed red;
+  width: 100%;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#button {
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: none;
+}
+
+footer {
+  position: sticky;
+  width: 100%;
+  outline: 0.25px dashed red;
+  margin-top: 140px;
+  padding: 5px;
+  text-align: center;
+}

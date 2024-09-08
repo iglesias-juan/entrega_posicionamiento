@@ -65,7 +65,7 @@ header {
   text-align: center;
 }
 
-#button {
+.buttons {
   font-size: 10px;
   font-weight: bold;
   border-radius: none;
